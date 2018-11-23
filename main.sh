@@ -40,40 +40,33 @@ echo -e "${BLUE}Début des test ...${NC}"
 echo -e ""
 if [ $rez1 -eq 0 ]
 then
-	echo "identiques"
+	echo -e "	${GREEN}TEST 1 [✓]${NC}"
 else
-	echo "RIP"
+	echo -e "	${RED}TEST 1 [x]${NC}"
 fi
 
 if [ $rez2 -eq 0 ]
 then
-	echo "identiques"
+	echo -e "	${GREEN}TEST 2 [✓]${NC}"
 else
-	echo "RIP"
+	echo -e "	${RED}TEST 2 [x]${NC}"
 fi
 
 if [ $rez3 -eq 0 ]
 then
-	echo "identiques"
+	echo -e "	${GREEN}TEST 3 [✓]${NC}"
 else
-	echo "RIP"
+	echo -e "	${RED}TEST 3 [x]${NC}"
 fi
 
 if [ $rez4 -eq 0 ]
 then
-	echo "identiques"
+	echo -e "	${GREEN}TEST 4 [✓]${NC}"
 else
-	echo "RIP"
+	echo -e "	${RED}TEST 4 [x]${NC}"
 fi
 rm -rf s
 echo -e ""
-echo -e "Fin du test"
-# rm solv
-# echo "yolo" >> solv
-# if [ $(cmp solv safe) = $(cat rez) ]
-# then
-# 	echo "good"
-# else
-# 	echo "diff"
-# fi
-# echo "............................."
+echo -e "${BLUE}-------------------${NC}"
+echo -e "${BLUE}--  ${GREEN}Fin du test ${BLUE} --${NC}"
+echo -e "${BLUE}-------------------${NC}"
