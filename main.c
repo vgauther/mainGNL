@@ -6,13 +6,13 @@
 /*   By: vgauther <vgauther@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/21 16:20:38 by vgauther          #+#    #+#             */
-/*   Updated: 2018/11/21 18:18:47 by vgauther         ###   ########.fr       */
+/*   Updated: 2018/11/23 15:42:32 by vgauther         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <fcntl.h>
 #include <stdio.h>
-#include "../get_next_line.h"
+#include "get_next_line.h"
 
 int		main(int argc, char **argv)
 {
