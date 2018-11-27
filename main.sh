@@ -14,7 +14,7 @@ echo -e "${BLUE}-- ${GREEN}Début du test ${BLUE}--${NC}"
 echo -e "${BLUE}-------------------${NC}"
 echo -e ""
 
-cp -rf $1 .
+cp -rf $1/* .
 echo -e "${GREEN}[✓] Déplacement des fichiers${NC}"
 echo -e ""
 echo -e "${BLUE}Compilation de la libft ..${NC}"
